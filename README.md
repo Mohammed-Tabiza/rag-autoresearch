@@ -15,3 +15,7 @@ python app.py run-campaign --campaign-id default --max-iterations 5
 ```
 
 Les artefacts sont écrits dans `campaigns/<campaign_id>/`.
+
+
+## Note
+Les artefacts de runtime (`experiment_store`, `research_log.md`, `champions.json`) sont générés à l'exécution et ne doivent pas être versionnés avec des résultats de run locaux.
