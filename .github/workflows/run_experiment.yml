@@ -1,0 +1,16 @@
+name: Run Experiment
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -e . pytest
+      - run: python app.py run-campaign --campaign-id ci --max-iterations 3
+      - run: pytest -q

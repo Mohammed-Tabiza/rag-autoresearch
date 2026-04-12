@@ -1,0 +1,7 @@
+campaign_id: default
+max_iterations: 10
+budget:
+  max_total_cost_usd: 10.0
+  max_total_tokens: 300000
+  max_wall_time_seconds: 1800
+objective: maximize_global_score

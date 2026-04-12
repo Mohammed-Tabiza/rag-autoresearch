@@ -1,0 +1,8 @@
+weights:
+  faithfulness: 0.45
+  answer_relevance: 0.25
+  context_precision: 0.15
+  citation_accuracy: 0.15
+penalties:
+  normalized_cost: 0.10
+  normalized_latency: 0.05

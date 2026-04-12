@@ -1,0 +1,14 @@
+{
+  "best_score_absolute": {
+    "experiment_id": "exp_635ac9f9",
+    "score": 0.7153287532303909,
+    "status": "keep",
+    "config": {
+      "retriever_type": "mmr",
+      "chunk_size": 400,
+      "chunk_overlap": 80,
+      "top_k": 8,
+      "temperature": 0.0
+    }
+  }
+}

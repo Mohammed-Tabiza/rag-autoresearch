@@ -1,0 +1,28 @@
+{
+  "experiment_id": "exp_46f153b7",
+  "campaign_id": "default",
+  "parent_experiment_id": "exp_1b1293e0",
+  "timestamp": "2026-04-12T15:16:54.074465+00:00",
+  "hypothesis": "Tester similarity avec chunk_size=600 et top_k=12 pour améliorer le compromis qualité/coût.",
+  "config": {
+    "retriever_type": "similarity",
+    "chunk_size": 600,
+    "chunk_overlap": 40,
+    "top_k": 12,
+    "temperature": 0.0
+  },
+  "metrics": {
+    "faithfulness": 0.7344754562746229,
+    "answer_relevance": 0.7423357477293709,
+    "context_precision": 0.6923357477293709,
+    "citation_accuracy": 0.6944754562746228,
+    "normalized_cost": 0.1859225816035817,
+    "normalized_latency": 0.18624185005860378
+  },
+  "cost_usd": 0.00372,
+  "tokens_in": 900,
+  "tokens_out": 220,
+  "latency_ms": 623.49,
+  "status": "promote",
+  "notes": "MVP simulated run"
+}

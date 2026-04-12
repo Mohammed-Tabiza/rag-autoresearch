@@ -1,0 +1,28 @@
+{
+  "experiment_id": "exp_635ac9f9",
+  "campaign_id": "default",
+  "parent_experiment_id": "exp_686598a9",
+  "timestamp": "2026-04-12T15:17:08.705835+00:00",
+  "hypothesis": "Tester mmr avec chunk_size=400 et top_k=8 pour améliorer le compromis qualité/coût.",
+  "config": {
+    "retriever_type": "mmr",
+    "chunk_size": 400,
+    "chunk_overlap": 80,
+    "top_k": 8,
+    "temperature": 0.0
+  },
+  "metrics": {
+    "faithfulness": 0.7781440786081031,
+    "answer_relevance": 0.7722276632130292,
+    "context_precision": 0.7222276632130291,
+    "citation_accuracy": 0.738144078608103,
+    "normalized_cost": 0.3427124023377698,
+    "normalized_latency": 0.253550379718113
+  },
+  "cost_usd": 0.00685,
+  "tokens_in": 900,
+  "tokens_out": 220,
+  "latency_ms": 704.26,
+  "status": "keep",
+  "notes": "MVP simulated run"
+}

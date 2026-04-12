@@ -1,0 +1,7 @@
+retriever_type: [similarity, mmr]
+chunk_size: [400, 600, 800]
+chunk_overlap: [40, 80]
+top_k: [4, 8, 12]
+reranker_type: [none]
+generator_model: [gpt-4.1-mini]
+temperature: [0.0, 0.2]
