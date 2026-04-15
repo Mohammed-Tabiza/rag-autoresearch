@@ -1,0 +1,3 @@
+{"question": "What is retrieval-augmented generation?", "expected_topics": ["retrieval", "generation", "context"]}
+{"question": "Why is citation accuracy important in RAG?", "expected_topics": ["citation", "faithfulness", "grounding"]}
+{"question": "When should a system abstain from answering?", "expected_topics": ["unknown", "abstention", "confidence"]}

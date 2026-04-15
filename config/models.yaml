@@ -1,0 +1,5 @@
+# Generation model for chat completions
+generation_model: qwen2.5:7b-instruct
+
+# Embedding model for retrieval similarity
+embedding_model: nomic-embed-text

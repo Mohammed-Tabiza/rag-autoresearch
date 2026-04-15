@@ -1,0 +1,8 @@
+retriever_type: [similarity, mmr]
+chunk_size: [400, 600, 800]
+chunk_overlap: [40, 80]
+top_k: [4, 8, 12]
+reranker_type: [none]
+generator_model: [qwen2.5:7b-instruct]
+embedding_model: [nomic-embed-text]
+temperature: [0.0, 0.2]

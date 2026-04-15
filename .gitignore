@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime campaign artifacts
+campaigns/*/experiment_store/*.json
+campaigns/*/research_log.md
+campaigns/*/champions.json
