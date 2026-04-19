@@ -1,0 +1,2 @@
+[console_scripts]
+auto-rag = src.cli.main:main
